@@ -61,6 +61,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " sneak
     "Plug 'justinmk/vim-sneak'
 
+    " Trouble
+    " TODO: This will run with default Trouble configuration
+    "       Figure out how to move configuration to dedicated Lua file as
+    "       solution with the Vimscript does not work
+    "       (https://github.com/folke/trouble.nvim).
+    Plug 'folke/trouble.nvim'
+
     " devicons
     Plug 'ryanoasis/vim-devicons'
     Plug 'kyazdani42/nvim-web-devicons'
