@@ -25,6 +25,12 @@ nnoremap  <C-A-t> :FloatermToggle<CR>
 tnoremap <C-A-t> <C-\><C-n>:FloatermToggle<CR>
 " Mapping for nvim-tree
 nnoremap <silent> <C-A-n> :NvimTreeToggle<CR>
+" Goto Preview
+nnoremap gpd <cmd>lua require('goto-preview').goto_preview_definition()<CR>
+nnoremap gpt <cmd>lua require('goto-preview').goto_preview_type_definition()<CR>
+nnoremap gpi <cmd>lua require('goto-preview').goto_preview_implementation()<CR>
+nnoremap gP <cmd>lua require('goto-preview').close_all_win()<CR>
+nnoremap gpr <cmd>lua require('goto-preview').goto_preview_references()<CR>
 " FZF
 nnoremap <C-p> :GFiles<CR>
 nnoremap <leader>pf :Files<CR>
