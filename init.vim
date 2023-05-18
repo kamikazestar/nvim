@@ -37,6 +37,8 @@ hi EndOfBuffer guibg=None ctermbg=None
 set completeopt=menuone,noinsert,noselect
 let g:completetion_matching_strategy_list = [ 'exact', 'substring', 'fuzzy' ]
 lua require('lspinstaller')
+" Support for goimport in vim-lsp
+autocmd BufWritePre (InsertLeave?) <buffer> lua vim.lsp.buf.formatting_sync(nil,500)
 " Vimwiki configuration
 let g:vimwiki_list = [{'path':'$HOME/vimwiki', 'syntax':'markdown', 'ext': '.md', 'auto_diary_index': 1, 'diary_rel_path': 'diary', 'diary_index': 'diary', 'diary_header': 'Diary'}]
 autocmd FileType vimwiki set ft=markdown
