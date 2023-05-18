@@ -75,21 +75,6 @@ nmap <leader>db <Plug>VimwikiTabMakeDiaryNote
 nmap <leader>dt <Plug>VimwikiMakeTomorrowDiaryNote
 " Opent yesterday diary
 nmap <leader>dy <Plug>VimwikiMakeYesterdayDiaryNote
-" Common Go commands
-"au FileType go nmap <leader>r <Plug>(go-run)
-"au FileType go nmap <leader>b <Plug>(go-build)
-"au FileType go nmap <leader>t <Plug>(go-test)
-"au FileType go nmap <leader>c <Plug>(go-coverage-toggle)
-"au FileType go nmap <Leader>e <Plug>(go-rename)
-"au FileType go nmap <Leader>s <Plug>(go-implements)
-"au FileType go nmap <Leader>i <Plug>(go-info)
-" Go navigation commands
-"au FileType go nmap <Leader>ds <Plug>(go-def-split)
-"au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
-" Alternate commands
-"au FileType go nmap <Leader>ae <Plug>(go-alternate-edit)
-"au FileType go nmap <Leader>av <Plug>(go-alternate-vertical)
-
 " markdown-preview
 nmap <C-m> <Plug>MarkdownPreviewToggle
 
