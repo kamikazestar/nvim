@@ -43,8 +43,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " numbertoggle
     Plug 'jeffkreeftmeijer/vim-numbertoggle'
-    
-    "Add airline
+
+    " Add airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 

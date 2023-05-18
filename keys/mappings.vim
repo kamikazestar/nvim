@@ -25,9 +25,11 @@ nnoremap  <C-A-t> :FloatermToggle<CR>
 tnoremap <C-A-t> <C-\><C-n>:FloatermToggle<CR>
 " Mapping for nvim-tree
 nnoremap <silent> <C-A-n> :NvimTreeToggle<CR>
+
 " FZF
 nnoremap <C-p> :GFiles<CR>
 nnoremap <leader>pf :Files<CR>
+
 " Telescope
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
@@ -36,6 +38,7 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 nnoremap <leader>fg <cmd>Telescope git_commits<cr>
 nnoremap <leader>fgb <cmd>Telescope git_branches<cr>
+
 " Barbar configuration
 " Move to previous/next
 nnoremap <C-,> :BufferPrevious<CR>
